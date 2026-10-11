@@ -1,6 +1,6 @@
 from sys import exit as getout
 
-lang = int(input("1. English/2. Español: "))
+lang = int(input("1. English / 2. Español: "))
 if lang == 1:
     quotes = ["Give me the numeric day: ", "Give the number of the month: ",
         "Give me the 2 last numbers of the year: ", "Give me the 2 first numbers of the year: ",
